@@ -1,0 +1,1724 @@
+{
+  "connections": [
+    {
+      "from": {
+        "station": {
+          "id": "8507000",
+          "name": "Bern",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.948823,
+            "y": 7.439123
+          },
+          "distance": null
+        },
+        "arrival": null,
+        "arrivalTimestamp": null,
+        "departure": "2017-08-24T15:16:00+0200",
+        "departureTimestamp": 1503580560,
+        "delay": 0,
+        "platform": "8",
+        "prognosis": {
+          "platform": null,
+          "arrival": null,
+          "departure": "2017-08-24T15:16:00+0200",
+          "capacity1st": null,
+          "capacity2nd": null
+        },
+        "realtimeAvailability": null,
+        "location": {
+          "id": "8507000",
+          "name": "Bern",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.948823,
+            "y": 7.439123
+          },
+          "distance": null
+        }
+      },
+      "to": {
+        "station": {
+          "id": "8507100",
+          "name": "Thun",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.75485,
+            "y": 7.629595
+          },
+          "distance": null
+        },
+        "arrival": "2017-08-24T15:46:00+0200",
+        "arrivalTimestamp": 1503582360,
+        "departure": null,
+        "departureTimestamp": null,
+        "delay": null,
+        "platform": "8",
+        "prognosis": {
+          "platform": null,
+          "arrival": null,
+          "departure": null,
+          "capacity1st": null,
+          "capacity2nd": null
+        },
+        "realtimeAvailability": null,
+        "location": {
+          "id": "8507100",
+          "name": "Thun",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.75485,
+            "y": 7.629595
+          },
+          "distance": null
+        }
+      },
+      "duration": "00d00:30:00",
+      "transfers": 0,
+      "service": null,
+      "products": [
+        "S1"
+      ],
+      "capacity1st": null,
+      "capacity2nd": null,
+      "sections": [
+        {
+          "journey": {
+            "name": "S1 15155",
+            "category": "S",
+            "subcategory": null,
+            "categoryCode": null,
+            "number": "1",
+            "operator": "BLS-bls",
+            "to": "Thun",
+            "passList": [
+              {
+                "station": {
+                  "id": "8507000",
+                  "name": "Bern",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.948823,
+                    "y": 7.439123
+                  },
+                  "distance": null
+                },
+                "arrival": null,
+                "arrivalTimestamp": null,
+                "departure": "2017-08-24T15:16:00+0200",
+                "departureTimestamp": 1503580560,
+                "delay": 0,
+                "platform": "8",
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:16:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507000",
+                  "name": "Bern",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.948823,
+                    "y": 7.439123
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8516161",
+                  "name": "Bern Wankdorf",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.967818,
+                    "y": 7.465469
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:19:00+0200",
+                "arrivalTimestamp": 1503580740,
+                "departure": "2017-08-24T15:19:00+0200",
+                "departureTimestamp": 1503580740,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:20:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8516161",
+                  "name": "Bern Wankdorf",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.967818,
+                    "y": 7.465469
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507002",
+                  "name": "Ostermundigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.956794,
+                    "y": 7.481492
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:21:00+0200",
+                "arrivalTimestamp": 1503580860,
+                "departure": "2017-08-24T15:21:00+0200",
+                "departureTimestamp": 1503580860,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:22:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507002",
+                  "name": "Ostermundigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.956794,
+                    "y": 7.481492
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507003",
+                  "name": "G\u00fcmligen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.934313,
+                    "y": 7.505505
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:24:00+0200",
+                "arrivalTimestamp": 1503581040,
+                "departure": "2017-08-24T15:24:00+0200",
+                "departureTimestamp": 1503581040,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:25:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507003",
+                  "name": "G\u00fcmligen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.934313,
+                    "y": 7.505505
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507005",
+                  "name": "Rubigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.899165,
+                    "y": 7.54537
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:27:00+0200",
+                "arrivalTimestamp": 1503581220,
+                "departure": "2017-08-24T15:27:00+0200",
+                "departureTimestamp": 1503581220,
+                "delay": 2,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:29:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507005",
+                  "name": "Rubigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.899165,
+                    "y": 7.54537
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507006",
+                  "name": "M\u00fcnsingen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.873343,
+                    "y": 7.559433
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:31:00+0200",
+                "arrivalTimestamp": 1503581460,
+                "departure": "2017-08-24T15:31:00+0200",
+                "departureTimestamp": 1503581460,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:32:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507006",
+                  "name": "M\u00fcnsingen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.873343,
+                    "y": 7.559433
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507007",
+                  "name": "Wichtrach",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.841606,
+                    "y": 7.568853
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:34:00+0200",
+                "arrivalTimestamp": 1503581640,
+                "departure": "2017-08-24T15:34:00+0200",
+                "departureTimestamp": 1503581640,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:35:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507007",
+                  "name": "Wichtrach",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.841606,
+                    "y": 7.568853
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507008",
+                  "name": "Kiesen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.818939,
+                    "y": 7.575494
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:36:00+0200",
+                "arrivalTimestamp": 1503581760,
+                "departure": "2017-08-24T15:36:00+0200",
+                "departureTimestamp": 1503581760,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:37:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507008",
+                  "name": "Kiesen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.818939,
+                    "y": 7.575494
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507009",
+                  "name": "Uttigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.794301,
+                    "y": 7.582622
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:38:00+0200",
+                "arrivalTimestamp": 1503581880,
+                "departure": "2017-08-24T15:39:00+0200",
+                "departureTimestamp": 1503581940,
+                "delay": 2,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:41:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507009",
+                  "name": "Uttigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.794301,
+                    "y": 7.582622
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507100",
+                  "name": "Thun",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.75485,
+                    "y": 7.629595
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:46:00+0200",
+                "arrivalTimestamp": 1503582360,
+                "departure": null,
+                "departureTimestamp": null,
+                "delay": 0,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": "2017-08-24T15:46:00+0200",
+                  "departure": null,
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507100",
+                  "name": "Thun",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.75485,
+                    "y": 7.629595
+                  },
+                  "distance": null
+                }
+              }
+            ],
+            "capacity1st": null,
+            "capacity2nd": null
+          },
+          "walk": null,
+          "departure": {
+            "station": {
+              "id": "8507000",
+              "name": "Bern",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.948823,
+                "y": 7.439123
+              },
+              "distance": null
+            },
+            "arrival": null,
+            "arrivalTimestamp": null,
+            "departure": "2017-08-24T15:16:00+0200",
+            "departureTimestamp": 1503580560,
+            "delay": 0,
+            "platform": "8",
+            "prognosis": {
+              "platform": null,
+              "arrival": null,
+              "departure": "2017-08-24T15:16:00+0200",
+              "capacity1st": null,
+              "capacity2nd": null
+            },
+            "realtimeAvailability": null,
+            "location": {
+              "id": "8507000",
+              "name": "Bern",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.948823,
+                "y": 7.439123
+              },
+              "distance": null
+            }
+          },
+          "arrival": {
+            "station": {
+              "id": "8507100",
+              "name": "Thun",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.75485,
+                "y": 7.629595
+              },
+              "distance": null
+            },
+            "arrival": "2017-08-24T15:46:00+0200",
+            "arrivalTimestamp": 1503582360,
+            "departure": null,
+            "departureTimestamp": null,
+            "delay": 0,
+            "platform": null,
+            "prognosis": {
+              "platform": null,
+              "arrival": "2017-08-24T15:46:00+0200",
+              "departure": null,
+              "capacity1st": null,
+              "capacity2nd": null
+            },
+            "realtimeAvailability": null,
+            "location": {
+              "id": "8507100",
+              "name": "Thun",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.75485,
+                "y": 7.629595
+              },
+              "distance": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "from": {
+        "station": {
+          "id": "8507000",
+          "name": "Bern",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.948823,
+            "y": 7.439123
+          },
+          "distance": null
+        },
+        "arrival": null,
+        "arrivalTimestamp": null,
+        "departure": "2017-08-24T15:34:00+0200",
+        "departureTimestamp": 1503581640,
+        "delay": 0,
+        "platform": "6",
+        "prognosis": {
+          "platform": null,
+          "arrival": null,
+          "departure": "2017-08-24T15:34:00+0200",
+          "capacity1st": null,
+          "capacity2nd": null
+        },
+        "realtimeAvailability": null,
+        "location": {
+          "id": "8507000",
+          "name": "Bern",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.948823,
+            "y": 7.439123
+          },
+          "distance": null
+        }
+      },
+      "to": {
+        "station": {
+          "id": "8507100",
+          "name": "Thun",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.75485,
+            "y": 7.629595
+          },
+          "distance": null
+        },
+        "arrival": "2017-08-24T15:52:00+0200",
+        "arrivalTimestamp": 1503582720,
+        "departure": null,
+        "departureTimestamp": null,
+        "delay": null,
+        "platform": "6",
+        "prognosis": {
+          "platform": null,
+          "arrival": null,
+          "departure": null,
+          "capacity1st": null,
+          "capacity2nd": null
+        },
+        "realtimeAvailability": null,
+        "location": {
+          "id": "8507100",
+          "name": "Thun",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.75485,
+            "y": 7.629595
+          },
+          "distance": null
+        }
+      },
+      "duration": "00d00:18:00",
+      "transfers": 0,
+      "service": null,
+      "products": [
+        "IC"
+      ],
+      "capacity1st": null,
+      "capacity2nd": null,
+      "sections": [
+        {
+          "journey": {
+            "name": "IC 1075",
+            "category": "IC",
+            "subcategory": null,
+            "categoryCode": null,
+            "number": "IC 1075",
+            "operator": "SBB",
+            "to": "Brig",
+            "passList": [
+              {
+                "station": {
+                  "id": "8507000",
+                  "name": "Bern",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.948823,
+                    "y": 7.439123
+                  },
+                  "distance": null
+                },
+                "arrival": null,
+                "arrivalTimestamp": null,
+                "departure": "2017-08-24T15:34:00+0200",
+                "departureTimestamp": 1503581640,
+                "delay": 0,
+                "platform": "6",
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:34:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507000",
+                  "name": "Bern",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.948823,
+                    "y": 7.439123
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507100",
+                  "name": "Thun",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.75485,
+                    "y": 7.629595
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:52:00+0200",
+                "arrivalTimestamp": 1503582720,
+                "departure": null,
+                "departureTimestamp": null,
+                "delay": 0,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": "2017-08-24T15:52:00+0200",
+                  "departure": null,
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507100",
+                  "name": "Thun",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.75485,
+                    "y": 7.629595
+                  },
+                  "distance": null
+                }
+              }
+            ],
+            "capacity1st": null,
+            "capacity2nd": null
+          },
+          "walk": null,
+          "departure": {
+            "station": {
+              "id": "8507000",
+              "name": "Bern",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.948823,
+                "y": 7.439123
+              },
+              "distance": null
+            },
+            "arrival": null,
+            "arrivalTimestamp": null,
+            "departure": "2017-08-24T15:34:00+0200",
+            "departureTimestamp": 1503581640,
+            "delay": 0,
+            "platform": "6",
+            "prognosis": {
+              "platform": null,
+              "arrival": null,
+              "departure": "2017-08-24T15:34:00+0200",
+              "capacity1st": null,
+              "capacity2nd": null
+            },
+            "realtimeAvailability": null,
+            "location": {
+              "id": "8507000",
+              "name": "Bern",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.948823,
+                "y": 7.439123
+              },
+              "distance": null
+            }
+          },
+          "arrival": {
+            "station": {
+              "id": "8507100",
+              "name": "Thun",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.75485,
+                "y": 7.629595
+              },
+              "distance": null
+            },
+            "arrival": "2017-08-24T15:52:00+0200",
+            "arrivalTimestamp": 1503582720,
+            "departure": null,
+            "departureTimestamp": null,
+            "delay": 0,
+            "platform": null,
+            "prognosis": {
+              "platform": null,
+              "arrival": "2017-08-24T15:52:00+0200",
+              "departure": null,
+              "capacity1st": null,
+              "capacity2nd": null
+            },
+            "realtimeAvailability": null,
+            "location": {
+              "id": "8507100",
+              "name": "Thun",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.75485,
+                "y": 7.629595
+              },
+              "distance": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "from": {
+        "station": {
+          "id": "8507000",
+          "name": "Bern",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.948823,
+            "y": 7.439123
+          },
+          "distance": null
+        },
+        "arrival": null,
+        "arrivalTimestamp": null,
+        "departure": "2017-08-24T15:39:00+0200",
+        "departureTimestamp": 1503581940,
+        "delay": null,
+        "platform": "3",
+        "prognosis": {
+          "platform": null,
+          "arrival": null,
+          "departure": null,
+          "capacity1st": null,
+          "capacity2nd": null
+        },
+        "realtimeAvailability": null,
+        "location": {
+          "id": "8507000",
+          "name": "Bern",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.948823,
+            "y": 7.439123
+          },
+          "distance": null
+        }
+      },
+      "to": {
+        "station": {
+          "id": "8507100",
+          "name": "Thun",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.75485,
+            "y": 7.629595
+          },
+          "distance": null
+        },
+        "arrival": "2017-08-24T15:59:00+0200",
+        "arrivalTimestamp": 1503583140,
+        "departure": null,
+        "departureTimestamp": null,
+        "delay": null,
+        "platform": "3",
+        "prognosis": {
+          "platform": null,
+          "arrival": null,
+          "departure": null,
+          "capacity1st": null,
+          "capacity2nd": null
+        },
+        "realtimeAvailability": null,
+        "location": {
+          "id": "8507100",
+          "name": "Thun",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.75485,
+            "y": 7.629595
+          },
+          "distance": null
+        }
+      },
+      "duration": "00d00:20:00",
+      "transfers": 0,
+      "service": null,
+      "products": [
+        "RE"
+      ],
+      "capacity1st": null,
+      "capacity2nd": null,
+      "sections": [
+        {
+          "journey": {
+            "name": "RE 4177",
+            "category": "RE",
+            "subcategory": null,
+            "categoryCode": null,
+            "number": "RE 4177",
+            "operator": "BLS-bls",
+            "to": "Spiez",
+            "passList": [
+              {
+                "station": {
+                  "id": "8507000",
+                  "name": "Bern",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.948823,
+                    "y": 7.439123
+                  },
+                  "distance": null
+                },
+                "arrival": null,
+                "arrivalTimestamp": null,
+                "departure": "2017-08-24T15:39:00+0200",
+                "departureTimestamp": 1503581940,
+                "delay": null,
+                "platform": "3",
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": null,
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507000",
+                  "name": "Bern",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.948823,
+                    "y": 7.439123
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507006",
+                  "name": "M\u00fcnsingen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.873343,
+                    "y": 7.559433
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:49:00+0200",
+                "arrivalTimestamp": 1503582540,
+                "departure": "2017-08-24T15:50:00+0200",
+                "departureTimestamp": 1503582600,
+                "delay": null,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": null,
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507006",
+                  "name": "M\u00fcnsingen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.873343,
+                    "y": 7.559433
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507100",
+                  "name": "Thun",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.75485,
+                    "y": 7.629595
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:59:00+0200",
+                "arrivalTimestamp": 1503583140,
+                "departure": null,
+                "departureTimestamp": null,
+                "delay": null,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": null,
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507100",
+                  "name": "Thun",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.75485,
+                    "y": 7.629595
+                  },
+                  "distance": null
+                }
+              }
+            ],
+            "capacity1st": null,
+            "capacity2nd": null
+          },
+          "walk": null,
+          "departure": {
+            "station": {
+              "id": "8507000",
+              "name": "Bern",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.948823,
+                "y": 7.439123
+              },
+              "distance": null
+            },
+            "arrival": null,
+            "arrivalTimestamp": null,
+            "departure": "2017-08-24T15:39:00+0200",
+            "departureTimestamp": 1503581940,
+            "delay": null,
+            "platform": "3",
+            "prognosis": {
+              "platform": null,
+              "arrival": null,
+              "departure": null,
+              "capacity1st": null,
+              "capacity2nd": null
+            },
+            "realtimeAvailability": null,
+            "location": {
+              "id": "8507000",
+              "name": "Bern",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.948823,
+                "y": 7.439123
+              },
+              "distance": null
+            }
+          },
+          "arrival": {
+            "station": {
+              "id": "8507100",
+              "name": "Thun",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.75485,
+                "y": 7.629595
+              },
+              "distance": null
+            },
+            "arrival": "2017-08-24T15:59:00+0200",
+            "arrivalTimestamp": 1503583140,
+            "departure": null,
+            "departureTimestamp": null,
+            "delay": null,
+            "platform": null,
+            "prognosis": {
+              "platform": null,
+              "arrival": null,
+              "departure": null,
+              "capacity1st": null,
+              "capacity2nd": null
+            },
+            "realtimeAvailability": null,
+            "location": {
+              "id": "8507100",
+              "name": "Thun",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.75485,
+                "y": 7.629595
+              },
+              "distance": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "from": {
+        "station": {
+          "id": "8507000",
+          "name": "Bern",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.948823,
+            "y": 7.439123
+          },
+          "distance": null
+        },
+        "arrival": null,
+        "arrivalTimestamp": null,
+        "departure": "2017-08-24T15:46:00+0200",
+        "departureTimestamp": 1503582360,
+        "delay": 0,
+        "platform": "8",
+        "prognosis": {
+          "platform": null,
+          "arrival": null,
+          "departure": "2017-08-24T15:46:00+0200",
+          "capacity1st": null,
+          "capacity2nd": null
+        },
+        "realtimeAvailability": null,
+        "location": {
+          "id": "8507000",
+          "name": "Bern",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.948823,
+            "y": 7.439123
+          },
+          "distance": null
+        }
+      },
+      "to": {
+        "station": {
+          "id": "8507100",
+          "name": "Thun",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.75485,
+            "y": 7.629595
+          },
+          "distance": null
+        },
+        "arrival": "2017-08-24T16:16:00+0200",
+        "arrivalTimestamp": 1503584160,
+        "departure": null,
+        "departureTimestamp": null,
+        "delay": null,
+        "platform": "8",
+        "prognosis": {
+          "platform": null,
+          "arrival": null,
+          "departure": null,
+          "capacity1st": null,
+          "capacity2nd": null
+        },
+        "realtimeAvailability": null,
+        "location": {
+          "id": "8507100",
+          "name": "Thun",
+          "score": null,
+          "coordinate": {
+            "type": "WGS84",
+            "x": 46.75485,
+            "y": 7.629595
+          },
+          "distance": null
+        }
+      },
+      "duration": "00d00:30:00",
+      "transfers": 0,
+      "service": null,
+      "products": [
+        "S1"
+      ],
+      "capacity1st": null,
+      "capacity2nd": null,
+      "sections": [
+        {
+          "journey": {
+            "name": "S1 15157",
+            "category": "S",
+            "subcategory": null,
+            "categoryCode": null,
+            "number": "1",
+            "operator": "BLS-bls",
+            "to": "Thun",
+            "passList": [
+              {
+                "station": {
+                  "id": "8507000",
+                  "name": "Bern",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.948823,
+                    "y": 7.439123
+                  },
+                  "distance": null
+                },
+                "arrival": null,
+                "arrivalTimestamp": null,
+                "departure": "2017-08-24T15:46:00+0200",
+                "departureTimestamp": 1503582360,
+                "delay": 0,
+                "platform": "8",
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:46:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507000",
+                  "name": "Bern",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.948823,
+                    "y": 7.439123
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8516161",
+                  "name": "Bern Wankdorf",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.967818,
+                    "y": 7.465469
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:49:00+0200",
+                "arrivalTimestamp": 1503582540,
+                "departure": "2017-08-24T15:49:00+0200",
+                "departureTimestamp": 1503582540,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:50:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8516161",
+                  "name": "Bern Wankdorf",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.967818,
+                    "y": 7.465469
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507002",
+                  "name": "Ostermundigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.956794,
+                    "y": 7.481492
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:51:00+0200",
+                "arrivalTimestamp": 1503582660,
+                "departure": "2017-08-24T15:51:00+0200",
+                "departureTimestamp": 1503582660,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:52:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507002",
+                  "name": "Ostermundigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.956794,
+                    "y": 7.481492
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507003",
+                  "name": "G\u00fcmligen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.934313,
+                    "y": 7.505505
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:54:00+0200",
+                "arrivalTimestamp": 1503582840,
+                "departure": "2017-08-24T15:54:00+0200",
+                "departureTimestamp": 1503582840,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:55:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507003",
+                  "name": "G\u00fcmligen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.934313,
+                    "y": 7.505505
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507005",
+                  "name": "Rubigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.899165,
+                    "y": 7.54537
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T15:57:00+0200",
+                "arrivalTimestamp": 1503583020,
+                "departure": "2017-08-24T15:57:00+0200",
+                "departureTimestamp": 1503583020,
+                "delay": 2,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T15:59:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507005",
+                  "name": "Rubigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.899165,
+                    "y": 7.54537
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507006",
+                  "name": "M\u00fcnsingen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.873343,
+                    "y": 7.559433
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T16:01:00+0200",
+                "arrivalTimestamp": 1503583260,
+                "departure": "2017-08-24T16:01:00+0200",
+                "departureTimestamp": 1503583260,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T16:02:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507006",
+                  "name": "M\u00fcnsingen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.873343,
+                    "y": 7.559433
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507007",
+                  "name": "Wichtrach",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.841606,
+                    "y": 7.568853
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T16:04:00+0200",
+                "arrivalTimestamp": 1503583440,
+                "departure": "2017-08-24T16:04:00+0200",
+                "departureTimestamp": 1503583440,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T16:05:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507007",
+                  "name": "Wichtrach",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.841606,
+                    "y": 7.568853
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507008",
+                  "name": "Kiesen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.818939,
+                    "y": 7.575494
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T16:06:00+0200",
+                "arrivalTimestamp": 1503583560,
+                "departure": "2017-08-24T16:06:00+0200",
+                "departureTimestamp": 1503583560,
+                "delay": 1,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T16:07:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507008",
+                  "name": "Kiesen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.818939,
+                    "y": 7.575494
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507009",
+                  "name": "Uttigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.794301,
+                    "y": 7.582622
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T16:08:00+0200",
+                "arrivalTimestamp": 1503583680,
+                "departure": "2017-08-24T16:09:00+0200",
+                "departureTimestamp": 1503583740,
+                "delay": 2,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": null,
+                  "departure": "2017-08-24T16:11:00+0200",
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507009",
+                  "name": "Uttigen",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.794301,
+                    "y": 7.582622
+                  },
+                  "distance": null
+                }
+              },
+              {
+                "station": {
+                  "id": "8507100",
+                  "name": "Thun",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.75485,
+                    "y": 7.629595
+                  },
+                  "distance": null
+                },
+                "arrival": "2017-08-24T16:16:00+0200",
+                "arrivalTimestamp": 1503584160,
+                "departure": null,
+                "departureTimestamp": null,
+                "delay": 0,
+                "platform": null,
+                "prognosis": {
+                  "platform": null,
+                  "arrival": "2017-08-24T16:16:00+0200",
+                  "departure": null,
+                  "capacity1st": null,
+                  "capacity2nd": null
+                },
+                "realtimeAvailability": null,
+                "location": {
+                  "id": "8507100",
+                  "name": "Thun",
+                  "score": null,
+                  "coordinate": {
+                    "type": "WGS84",
+                    "x": 46.75485,
+                    "y": 7.629595
+                  },
+                  "distance": null
+                }
+              }
+            ],
+            "capacity1st": null,
+            "capacity2nd": null
+          },
+          "walk": null,
+          "departure": {
+            "station": {
+              "id": "8507000",
+              "name": "Bern",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.948823,
+                "y": 7.439123
+              },
+              "distance": null
+            },
+            "arrival": null,
+            "arrivalTimestamp": null,
+            "departure": "2017-08-24T15:46:00+0200",
+            "departureTimestamp": 1503582360,
+            "delay": 0,
+            "platform": "8",
+            "prognosis": {
+              "platform": null,
+              "arrival": null,
+              "departure": "2017-08-24T15:46:00+0200",
+              "capacity1st": null,
+              "capacity2nd": null
+            },
+            "realtimeAvailability": null,
+            "location": {
+              "id": "8507000",
+              "name": "Bern",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.948823,
+                "y": 7.439123
+              },
+              "distance": null
+            }
+          },
+          "arrival": {
+            "station": {
+              "id": "8507100",
+              "name": "Thun",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.75485,
+                "y": 7.629595
+              },
+              "distance": null
+            },
+            "arrival": "2017-08-24T16:16:00+0200",
+            "arrivalTimestamp": 1503584160,
+            "departure": null,
+            "departureTimestamp": null,
+            "delay": 0,
+            "platform": null,
+            "prognosis": {
+              "platform": null,
+              "arrival": "2017-08-24T16:16:00+0200",
+              "departure": null,
+              "capacity1st": null,
+              "capacity2nd": null
+            },
+            "realtimeAvailability": null,
+            "location": {
+              "id": "8507100",
+              "name": "Thun",
+              "score": null,
+              "coordinate": {
+                "type": "WGS84",
+                "x": 46.75485,
+                "y": 7.629595
+              },
+              "distance": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "from": {
+    "id": "8507000",
+    "name": "Bern",
+    "score": null,
+    "coordinate": {
+      "type": "WGS84",
+      "x": 46.948823,
+      "y": 7.439123
+    },
+    "distance": null
+  },
+  "to": {
+    "id": "8507100",
+    "name": "Thun",
+    "score": null,
+    "coordinate": {
+      "type": "WGS84",
+      "x": 46.75485,
+      "y": 7.629595
+    },
+    "distance": null
+  },
+  "stations": {
+    "from": [
+      {
+        "id": "8507000",
+        "name": "Bern",
+        "score": null,
+        "coordinate": {
+          "type": "WGS84",
+          "x": 46.948823,
+          "y": 7.439123
+        },
+        "distance": null
+      }
+    ],
+    "to": [
+      {
+        "id": "8507100",
+        "name": "Thun",
+        "score": null,
+        "coordinate": {
+          "type": "WGS84",
+          "x": 46.75485,
+          "y": 7.629595
+        },
+        "distance": null
+      }
+    ]
+  }
+}
