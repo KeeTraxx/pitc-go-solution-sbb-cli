@@ -65,13 +65,12 @@ func main() {
 
 	// Loop through all connections and print them
 	for _, connection := range connections.Connections {
-		fmt.Printf("%-20s %-5s Platform %-5s  =>  %-20s %-5s Platform %-5s\n",
+		fmt.Printf("%-20s %-5s Platform %-5s  =>  %-20s %-5s\n",
 			connection.From.Station.Name,
 			connection.From.DepartureTime.Format("15:04"),
 			printStrPtr(connection.From.Platform, "n/a"),
 			connection.To.Station.Name,
 			connection.To.ArrivalTime.Format("15:04"),
-			printStrPtr(connection.To.Platform, "n/a"),
 		)
 	}
 }
